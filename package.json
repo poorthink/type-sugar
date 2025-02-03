@@ -1,0 +1,32 @@
+{
+  "name": "type-sugar",
+  "version": "0.0.1",
+  "description": "Sweeten your TypeScript code with a collection of practical utility types for type manipulation.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [
+    "typescript",
+    "type-sugar",
+    "utility-types",
+    "type-manipulation"
+  ],
+  "author": {
+    "name": "poorthink",
+    "url": "https://github.com/poorthink/type-sugar"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/poorthink/type-sugar"
+  },
+  "homepage": "https://github.com/poorthink/type-sugar",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "files": [
+    "dist/**/*.d.ts"
+  ]
+}
